@@ -5,18 +5,18 @@ to known attacks on the ECDLP.
 
 
 ## Usage
-'''bash
+```bash
 $ sage main.py [--num-proc NUM\_PROC] [--point-compression]
                [--overrun-protection]
                (--base-field BASE_FIELD | --num-bits NUM_BITS)
                outfile
-'''
+```
 
 * The point compression flag requries that the chose base field (if not
-specified) should satisfy $p = 3 (mod 4)$. This allows for efficient point
+specified) should satisfy p = 3 (mod 4). This allows for efficient point
 compression.
 
 * The overrun protection flag is used to indicate that we want an elliptic curve
-E such that $\#E(\F_q) < q$. This may be convenient for curve implementers as
-the bit length of $\#E(\F_q)$in may exceed the bit lenght of $q$.
+E such that #E(\F_q) < q. This may be convenient for curve implementers as
+the bit length of #E(\F_q) in may exceed the bit lenght of q.
 
