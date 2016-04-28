@@ -1,0 +1,5 @@
+Twisted Edwards Curve defined by 977302135542336474909340371062x^2 + y^2 = 1 - 423892929655161198740306280894x^2y^2 over Finite Field of size 1267650600228229401496703205707
+Elliptic Curve defined by y^2 = x^3 + 267088929938536544305886892498*x^2 + 301700149370877497157212649770*x over Finite Field of size 1267650600228229401496703205707
+<bound method TwistedEdwardsCurve_with_category.to_weierstrass_map of Projective Curve over Finite Field of size 1267650600228229401496703205707 defined by 843757670573068202756396924813*x^2*y^2 + 977302135542336474909340371062*x^2*z^2 + y^2*z^2 - z^4>
+<bound method TwistedEdwardsCurve_with_category.from_weierstrass_map of Projective Curve over Finite Field of size 1267650600228229401496703205707 defined by 843757670573068202756396924813*x^2*y^2 + 977302135542336474909340371062*x^2*z^2 + y^2*z^2 - z^4>
+Elapsed time: 56.699685812
